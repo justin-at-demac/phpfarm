@@ -1,0 +1,28 @@
+configoptions="
+--enable-cli \
+--enable-bcmath \
+--enable-calendar \
+--enable-exif \
+--enable-ftp \
+--enable-mbstring \
+--enable-pcntl \
+--enable-soap \
+--enable-sockets \
+--enable-wddx \
+--enable-zip \
+--enable-fpm \
+--with-openssl \
+--with-zlib \
+--with-readline \
+--with-openssl \
+--with-zlib \
+--with-gettext \
+--with-pear \
+--with-curl \
+--with-gd \
+--with-mcrypt \
+--with-pdo-mysql \
+--with-jpeg-dir \
+--with-png-dir \
+--with-config-file-path=/opt/phpfarm/inst/php-5.3.28/etc/ \
+"
