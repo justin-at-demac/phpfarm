@@ -11,18 +11,20 @@ configoptions="
 --enable-wddx \
 --enable-zip \
 --enable-fpm \
+--enable-intl \
 --with-openssl \
 --with-zlib \
 --with-readline \
 --with-openssl \
---with-zlib \
 --with-gettext \
 --with-pear \
 --with-curl \
 --with-gd \
 --with-mcrypt \
+--with-mysql \
+--with-mysqli \
 --with-pdo-mysql \
 --with-jpeg-dir \
 --with-png-dir \
---with-config-file-path=/opt/phpfarm/inst/php-5.3.28/etc/ \
+--with-xsl
 "

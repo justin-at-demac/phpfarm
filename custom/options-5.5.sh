@@ -12,6 +12,7 @@ configoptions="
 --enable-zip \
 --enable-fpm \
 --with-openssl \
+--with-zlib \
 --with-readline \
 --with-openssl \
 --with-zlib \
