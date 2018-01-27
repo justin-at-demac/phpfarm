@@ -1,30 +1,34 @@
+# options-7.sh
+# Like options-5.6.sh
+
 configoptions="
---enable-cli \
 --enable-bcmath \
 --enable-calendar \
+--enable-cli \
 --enable-exif \
+--enable-fpm \
 --enable-ftp \
+--enable-gd-native-ttf \
+--enable-intl \
 --enable-mbstring \
 --enable-pcntl \
 --enable-soap \
 --enable-sockets \
 --enable-wddx \
 --enable-zip \
---enable-fpm \
---enable-intl \
---with-openssl \
---with-zlib \
---with-readline \
---with-openssl \
---with-gettext \
---with-pear \
 --with-curl \
+--with-freetype-dir=/usr/include/freetype2 \
 --with-gd \
+--with-gettext \
+--with-jpeg-dir \
 --with-mcrypt \
 --with-mysql \
 --with-mysqli \
+--with-openssl \
 --with-pdo-mysql \
---with-jpeg-dir \
+--with-pear \
 --with-png-dir \
---with-xsl
+--with-readline \
+--with-xsl \
+--with-zlib
 "
